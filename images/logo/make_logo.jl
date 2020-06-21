@@ -41,7 +41,7 @@ for filename in ("logo/logo.svg", "logo/logo.png")
     origin()
 
 
-    translate(0, -150)
+    translate(75, -150)
 
     sethue(Luxor.julia_green)
     with_matrix(draw_tick)
@@ -49,7 +49,6 @@ for filename in ("logo/logo.svg", "logo/logo.png")
     translate(0, 100)
     sethue(Luxor.julia_purple)
     with_matrix(draw_tick)
-
 
     translate(0, 100)
     sethue(Luxor.julia_red)
