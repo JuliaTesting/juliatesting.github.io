@@ -36,8 +36,8 @@ function draw_cross()
 end
 
 
-for filename in ("logo.svg", "logo.png")
-    Drawing(400, 400, filename)
+for filename in ("logo/logo.svg", "logo/logo.png")
+    Drawing(300, 300, filename)
     origin()
 
 
@@ -59,3 +59,4 @@ for filename in ("logo.svg", "logo.png")
     finish()
     preview()
 end
+preview()
